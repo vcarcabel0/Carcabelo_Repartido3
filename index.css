@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: white;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding:10px 0px;
+    }
+}
+
+/*arriba esta el menu solo*/
+
+.nosotros{
+    display: flex;
+    justify-content: center;
+    color: rgb(3, 30, 53);
+}
+.motivos{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(7, 46, 80);
+}
+
+/*uno,dos y tres son los motivos*/
+
+#uno{
+    color: rgb(217, 247, 247);
+    
+}
+#dos{
+    color: rgb(238, 194, 238);
+}
+#tres{
+    color: rgb(180, 224, 187);
+}
+
+/*Nuestra historia*/
+
+.historia{
+    display: flex;
+    justify-content:center; width:250px;
+    color: rgb(132, 0, 255);
+}
+#historia{
+    background-color: rgb(167, 129, 202);
+    display: flex;
+    flex-direction:column;
+}
+
+/*Cursos*/
+
+.cursos{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+}
+#desc{
+    background-color: rgb(219, 62, 62);
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    display:flex;
+    align-items:center; height: 250px;
+    justify-content: space-around;
+}
+
+.imgdos{
+    display: flex;
+    align-items: center; height: 250px;
+    justify-content: space-around;
+}
+.curso_desc{
+    display: flex;
+}
+.tipo_curso{
+    color: rgb(0, 255, 13);
+    background-color: rgb(0, 0, 0);
+    font-family:Red Hat Mono
+}
+.tipo_curso_dos{
+    color: rgb(0, 0, 0);
+    background-color: rgb(200, 255, 0);
+    font-family:Josefin Sans
+}
+
+/*Docentes*/
+
+.docentes{
+    display: flex;
+    justify-content: center;
+    color: rgb(107, 0, 247);
+}
+#profesores{
+    background-color: rgb(0, 71, 153);
+    display: flex;
+    justify-content: center;
+}
+.imgbottom{
+    text-align: center;
+}
+.profes{
+    display:flex;
+    align-items:center; height: 300px;
+    justify-content: space-around;
+}
